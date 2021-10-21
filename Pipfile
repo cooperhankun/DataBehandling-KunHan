@@ -11,7 +11,7 @@ seaborn = "*"
 ipykernel = "*"
 openpyxl = "*"
 plotly = "*"
-plotly-express = "*"
+plotly-express = "==0.4.0"
 nbformat = "*"
 
 [dev-packages]
