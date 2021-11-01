@@ -14,6 +14,8 @@ plotly = "*"
 plotly-express = "==0.4.0"
 nbformat = "*"
 lxml = "*"
+python-dotenv = "*"
+requests = "*"
 
 [dev-packages]
 
