@@ -17,6 +17,8 @@ lxml = "*"
 python-dotenv = "*"
 requests = "*"
 dash = "*"
+dash-bootstrap-components = "*"
+gunicorn = "*"
 
 [dev-packages]
 

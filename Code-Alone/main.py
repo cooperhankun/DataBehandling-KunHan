@@ -6,7 +6,7 @@ from dash.dependencies import Output, Input
 import plotly_express as px
 from time_filtering import filter_time
 
-stock_data_object = pd.read_csv("C:/Users/Kun/Documents/GitHub/DataBehandling-KunHan/Code-Alone/Data/AAPL_TIME_SERIES_DAILY.csv")
+stock_data_object = StockDataLocal()
 
 symbol_dict = dict(AAPL="Apple", NVDA="Nvidia", TSLA="Tesla", IBM="IBM")
 
